@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;800&display=swap');
+
+body 
+{
+    background-color: #b4c2b4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-text {
+    font-family: 'Epilogue', sans-serif;
+    margin-top: 44%;
+    padding: 20%;
+    background-color: white;
+}
+
+.section-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 90px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 27%;
+    left: 15%;
+    
+}
+
+.section-title2 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 150px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 32%;
+    left: 15%;
+}
+
+.section-title3{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 100px;
+    color: #b4c2b4;
+    position: absolute;
+    text-align: center;
+    bottom: -25%;
+    left: 15%;
+}
+
+img.logo {
+    position: fixed;
+    width: 150px;
+    top: 3%;
+    left: 3%;
+}
+
+img.logo2 {
+    position: fixed;
+    width: 100px;
+    top: 19%;
+    left: 46%;
+
+}
+
+nav ul {
+    padding: 56;
+    margin: 56;
+    list-style-type: none;
+    background-color: white;
+    overflow: hidden;
+    padding-left: 50%;
+
+    
+}
+nav li {
+    float: left;
+}
+
+nav li a {
+    font-family: 'Roboto';
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 40px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: #b4c2b4;
+}
+
+.signin-box
+{
+    width: 360px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    font-family: 'Epilogue';
+    text-align: center;
+    padding-top: 15px;
+}
+
+.staff {
+    font-family: 'Epilogue';
+
+    text-align: center;
+    padding-top: 24%;
+}
+
+.signin {
+    font-family: 'Epilogue';
+
+    text-align: center;
+    padding-top: 24%;
+}
+
+.signup {
+    font-family: 'Epilogue';
+
+    text-align: center;
+    padding-top: 24%;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+    
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.para-2 a {
+    color: yellow;
+}
+
+.pure-button {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: #b4c2b4;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+img.footerlogo {
+    position: absolute;
+    top: -85%;
+    width: 100px;
+    left: 47%;
+}
